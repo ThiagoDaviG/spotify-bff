@@ -13,7 +13,7 @@ app.use(cors());
 // Rota pra gerar o access_token
 app.get('/token', async (req, res) => {
     try {
-        const response = await axios.post(
+        const response = await axios.post( //fazendo a requisição POST com axios que retorna o token 
             'https://accounts.spotify.com/api/token', // endpoint oficial do spotify
             'grant_type=client_credentials',        // tipo de fluxo: Client Credentials
             {
