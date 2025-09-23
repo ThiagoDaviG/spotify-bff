@@ -26,8 +26,8 @@ Instale as dependências com:
 npm install
 
 Crie o arquivo .env com suas credenciais:
-SPOTIFY_CLIENT_ID=seu_client_id
-SPOTIFY_CLIENT_SECRET=seu_client_secret
+CLIENT_ID=seu_client_id
+CLIENT_SECRET=seu_client_secret
 PORT=3000
 
 client_id utilizado: 9bacdee796c749a9860e9b8b65c301bf
